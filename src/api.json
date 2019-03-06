@@ -1,0 +1,140 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "description": "Mejorar situacion en Puno",
+      "title": "#SavePuno",
+      "debate": [
+        {
+          "id": "1",
+          "author": "Andrea Cabrera",
+          "total_join": 11,
+          "persons_join": 9,
+          "replies": 8,
+          "likes": "10",
+          "is_closed": true,
+          "initial_time": "08:10",
+          "initial_date":"2018-03-12",
+          "final-date": "2018-05-12",
+          "has_copy": true,
+          "final_time":"15:35",
+          "solutions": [
+            {
+              "total": 6,
+              "winner": [
+                {
+                  "author": "Adriano",
+                  "id": 2,
+                  "title": "Holiholh",
+                  "likes": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Referendum",
+      "title": "#Referendum",
+      "debate": [
+        {
+          "id": "2",
+          "author": "Alexandra",
+          "total_join": 21,
+          "persons_join": 14,
+          "likes": "10",
+          "replies": 10,
+          "is_closed": false,
+          "initial_time": "18:10",
+          "initial_date":"2018-04-12",
+          "final-date": "2018-05-12",
+          "has_copy": false,
+          "final_time":"15:35",
+          "solutions": [
+            {
+              "total": 7,
+              "winner": [
+                {
+                  "author": "Adri",
+                  "id": 2,
+                  "title": "Vahahgsjkasa",
+                  "likes": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Alan",
+      "title": "#AlanCTM",
+      "debate": [
+        {
+          "id": "3",
+          "author": "Gianella",
+          "total_join": 11,
+          "persons_join": 5,
+          "likes": "7",
+          "replies": 5,
+          "is_closed": true,
+          "initial_time": "23:10",
+          "initial_date":"2018-03-12",
+          "final-date": "2018-05-12",
+          "has_copy": true,
+          "final_time":"15:35",
+          "solutions": [
+            {
+              "total": 6,
+              "winner": [
+                {
+                  "author": "Adriana",
+                  "id": 2,
+                  "title": "Yupiuyoo",
+                  "likes": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Amazonia",
+      "title": "#SaveAmazon",
+      "debate": [
+        {
+          "id": "4",
+          "author": "Cath",
+          "total_join": 28,
+          "persons_join": 23,
+          "replies": 16,
+          "likes": "32",
+          "is_closed": false,
+          "initial_time": "08:10",
+          "initial_date":"2018-03-12",
+          "final-date": "2018-05-12",
+          "has_copy": true,
+          "final_time":"15:35",
+          "solutions": [
+            {
+              "total": 6,
+              "winner": [
+                {
+                  "author": "Andrea",
+                  "id": 2,
+                  "title": "Holihol",
+                  "likes": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

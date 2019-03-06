@@ -1,0 +1,35 @@
+.marginTB {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.marginRL {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.no-padding {
+  padding: 0px!important;
+}
+.span-margin {
+  margin-left: 6px;
+}
+.shadow {
+  box-shadow: 0px 10px 6px -6px #4c4c4c
+}
+.right {
+  float: right;
+}
+.white {
+  color: white;
+}
+.turquoise {
+  color:#4FC7D7;
+}
+.red {
+  color:#e86767;
+}
+.blue {
+  color: #678ce8;
+}
+.gray {
+  color: #C4C4C4;
+}

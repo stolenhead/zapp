@@ -1,0 +1,22 @@
+{
+  "1":{
+    "id":1,
+    "name": "Andrea Cabrera",
+    "cards_quantity": 3
+  },
+  "2":{
+    "id":2,
+    "name": "Jenny Cabrera",
+    "cards_quantity": 5
+  },
+  "3":{
+    "id":3,
+    "name": "Vincent",
+    "cards_quantity": 6
+  },
+  "4":{
+    "id":4,
+    "name": "Ruby Palomino",
+    "cards_quantity": 3
+  }
+}

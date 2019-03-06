@@ -1,0 +1,39 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+.section-home {
+    margin: 3rem;
+}
+
+.createBtn {
+    margin-bottom: 3rem;
+}
+
+.badgeTop {
+    margin-left: 1rem;
+}
+/*nav*/
+.nav {
+    background-color: #4FC7D7;
+}
+.nav .brand {
+    font-size: 1.8rem;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 10px;
+}
+/* card item */
+
+.footerCard {
+    border-top: 1px solid lightgray;
+}
+.card-header-code {
+    float: right;
+}
+
+/* top list */
+.top-header {
+    margin-top: 9px;
+    margin-left: 9px;
+}
