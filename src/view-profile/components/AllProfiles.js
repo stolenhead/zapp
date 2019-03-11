@@ -1,17 +1,30 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import UsersAPI from '../../apiuser.js';
+import { Container, Row, Col, ListGroup, ListGroupItem, Badge} from 'reactstrap';
+import { Switch, Route,  BrowserRouter, Link  } from "react-router-dom";
 
-class AllProfile extends React.Component {
-  constructor(props){
-    super(props);
-  }
-  render(){
-    return(
-      <Container fluid>
-        <p>holi</p>
-      </Container>
-    )
-  }
-}
+const mapUsers = url =>
+    UsersAPI.all().map(u =>(
+        <div key={u.id}>
+        <Col md="12" >
+            <ListGroup>
+            <ListGroupItem className="justify-content-between" >
+                <Link to={`${url}/${u.id}`}>
+                {url}
+                <span className="span-margin">#holis {u.id}</span>
+                <span className="right">
+                <span className="span-margin">holis</span>
+                </span></Link>
+            </ListGroupItem>
+            </ListGroup>
+        </Col>
+        </div>
+    ));
+
+const AllProfile = ({ match }) =>(
+  <div>
+    <ul>{mapUsers(match.url)}</ul>
+  </div>
+);
 
 export default AllProfile;

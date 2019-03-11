@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import data from '../../api.json';
+import UsersAPI from '../../apiuser.js';
 
 const ViewProfile = ({match: { params:{id} } })=> {
-  const user = data.get(parseInt(id));
+  const user = UsersAPI.get(parseInt(id));
   console.log(user);
   if(!user){
     return <div>holis</div>

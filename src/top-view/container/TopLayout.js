@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import { Container, Row, Col } from 'reactstrap';
-import UsersAPI from '../../users.json';
+import UsersAPI from '../../apiuser.js';
 
-const mapUser = url =>
+/*const mapUser = url =>
   UsersAPI.all().map(u =>(
     <div>
       <Col md="12" >
@@ -71,6 +71,6 @@ const mapUser = url =>
       </Container>
     )
   }
-}*/
+}
 
-export default TopLayout;
+export default TopLayout;*/

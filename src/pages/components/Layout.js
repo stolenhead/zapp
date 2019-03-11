@@ -31,7 +31,6 @@ class Layout extends React.Component {
   }
   render() {
     return (
-      <Router>
       <div>
         <Navbar className="nav"  expand="md">
           <NavbarBrand className="brand" href="/">Zapp!</NavbarBrand>
@@ -39,12 +38,11 @@ class Layout extends React.Component {
           <div>
             <ul>
               <li><Link to='/'>Home</Link></li>
-              <li><Link to='/user'>User</Link></li>
+              <li><Link to='/users'>User</Link></li>
             </ul>
           </div>
         </Navbar>
       </div>
-      </Router>
     );
   }
 }
