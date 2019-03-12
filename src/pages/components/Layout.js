@@ -35,12 +35,14 @@ class Layout extends React.Component {
         <Navbar className="nav"  expand="md">
           <NavbarBrand className="brand" href="/">Zapp!</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <div>
-            <ul>
-              <li><Link to='/'>Home</Link></li>
-              <li><Link to='/users'>User</Link></li>
-            </ul>
-          </div>
+            <Nav navbar className="navBox">
+              <NavItem >
+                <Link to='/' className="white">Home</Link>
+              </NavItem>
+              <NavItem >
+                <Link to='/users' className="white">User</Link>
+              </NavItem>
+            </Nav>
         </Navbar>
       </div>
     );

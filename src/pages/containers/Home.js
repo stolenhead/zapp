@@ -17,8 +17,7 @@ const mapUser = url =>
             <ListGroup>
             <ListGroupItem className="justify-content-between" >
                 <Link to={`${url}/${u.id}`}>
-                {url}
-                <span className="span-margin">#holis {u.id}</span>
+                <span className="span-margin">@{u.name} {u.id}</span>
                 <span className="right">
                 <FontAwesomeIcon icon={faHeart} className="red"/>
                 <span className="span-margin">holis</span>

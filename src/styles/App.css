@@ -23,6 +23,14 @@ h1 {
     border: 1px solid white;
     padding: 2px 10px;
 }
+.nav .navBox {
+    width: 140px;
+    position: absolute;
+    right: 100px;
+}
+.navBox .nav-item {
+    margin-left: 2rem;
+}
 /* card item */
 
 .footerCard {
